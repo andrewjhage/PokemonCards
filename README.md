@@ -21,7 +21,6 @@ The following dependencies are required to run PokeVault:
 - **React-DOM**: Provides DOM-specific methods for React.
 - **Axios**: For making HTTP requests to the Pokémon API.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development, used to style the app.
-- **Other dev dependencies**: For code linting and formatting (if applicable).
 
 ### Setting Up App
 
@@ -29,6 +28,7 @@ If Axios is not already installed, add it to your project by running:
 
 ```bash
 npm install axios
+npm install react
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
